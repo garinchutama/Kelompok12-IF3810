@@ -30,4 +30,11 @@ public class Pelamar extends Orang {
          berkas = b;
     }
     
+     public String toString(){
+        String x="Nama pelamar"+this.getNama()+
+                  "\nAlamat :  "+this.getAlamat()+
+                  "\nID KTP : "+this.getId_ktp();
+        return x;
+    }
+    
 }
