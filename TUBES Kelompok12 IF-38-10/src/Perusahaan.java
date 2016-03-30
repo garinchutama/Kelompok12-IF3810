@@ -44,5 +44,11 @@ public class Perusahaan extends Orang{
         }
     } 
     
+     public String toString(){
+        String x="Nama perusahaan :  "+this.getNama()+
+                 "\Alamat perusahaan:  "+this.getAlamat()+
+                "\ID Perusahaan :  "+this.getId_perusahaan();
+        return x;
+    }
     
 }
